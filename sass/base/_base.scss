@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    /* ie 62.5% of default font size of browser which is user dependent.... normaly it is 16 px.
+    so 62.5% of 16px is 10px */
+
+    //this also defines what is the value of 1rem
+}
+
+body {
+    box-sizing: border-box;
+    /* height/width = border + padding + default height/width  */
+}
